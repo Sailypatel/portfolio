@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreyal Patel | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* General */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #222, #444);
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+
+    header .social-links a {
+      display: inline-block;
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+      border: 1px solid #fff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    header .social-links a:hover {
+      background: #f39c12;
+      color: #222;
+      border-color: #f39c12;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #222;
+      border-left: 5px solid #f39c12;
+      padding-left: 12px;
+      font-weight: 600;
+    }
+
+    section p, section ul {
+      font-size: 1.05rem;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    /* Projects */
+    .projects ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .projects li {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .projects li:hover {
+      transform: translateY(-6px);
+    }
+
+    .projects a {
+      text-decoration: none;
+      color: #f39c12;
+      font-weight: 600;
+    }
+
+    /* Contact */
+    #contact p {
+      margin: 8px 0;
+    }
+
+    #contact a {
+      color: #f39c12;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Shreyal Yogeshkumar Patel</h1>
+      <p>M.C.A. - Artificial Intelligence | Data Analyst & Python Developer</p>
+      <div class="social-links">
+        <a href="mailto:shreyalp1411@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/shreyal-patel-84951b2a1">LinkedIn</a>
+        <a href="https://github.com/Sailypatel">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate MCA (Artificial Intelligence) student at Parul University with experience in Python, Data Analysis, and AI. I have completed internships and projects in data science, visualization, and AI, and I aim to build a career in Data Science & AI-driven solutions.</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>M.C.A. - Artificial Intelligence</strong>, Parul University (2024–2026) | CGPA: 9.19/10</li>
+        <li><strong>B.Sc. Computer Science</strong>, Sardar Patel University (2021–2024) | CGPA: 7.84/10</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Internship -->
+  <section id="experience">
+    <div class="container">
+      <h2>Internships</h2>
+      <p><strong>Data Analyst Intern</strong> – Elythra Edufyi Tech Solutions (Apr–Jun 2025)<br>
+      Worked on Python-based data projects using NumPy, Pandas, Matplotlib, Seaborn. Completed 5 mini-projects including anomaly detection.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Sailypatel/Internship_minor_project.git">Internship Minor Projects</a>
+          <p>Data analysis using Python</p>
+        </li>
+        <li>
+          <a href="https://github.com/Sailypatel/Major_project.git">Diwali Sales Analysis</a>
+          <p>Python data visualization project</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications & Workshops</h2>
+      <ul>
+        <li>Python Projects with Data Science Libraries – Parul University (2025)</li>
+        <li>Workshop on Generative AI – Projections Tech Fest, Parul University (2025)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:shreyalp1411@gmail.com">shreyalp1411@gmail.com</a></p>
+      <p>Phone: +91-8849728536</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shreyal Patel | Portfolio</p>
+  </footer>
+</body>
+</html>
